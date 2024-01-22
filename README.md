@@ -1,2 +1,2 @@
 # Open-EGGbox
-Open EGGbox: an open source 3D-printed Embryonic Gallus gallus toolbox for electroporation and live imaging of avian embryos in vitro
+Open EGGbox: an open source 3D-printed Embryonic <i>Gallus gallus</i> toolbox for electroporation and live imaging of avian embryos <i>in vitro</i>.
