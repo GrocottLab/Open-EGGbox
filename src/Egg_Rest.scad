@@ -17,7 +17,7 @@ use <text_on.scad>; // https://github.com/brodykenrick/text_on_OpenSCAD
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-innerD = 25;
+innerD = 29; // Large enough to hold a 50 ml centrifuge tube
 outerD = 50;
 height = 25;
 
@@ -34,6 +34,6 @@ difference() {
     }
     // Branding
     text_on_cylinder(t="www.grocottlab.com",r1=outerD/2,r2=outerD/2,h=-15,font="Liberation Mono:style=Bold", direction="ttb", size=5);
-    rotate([0,0,14])
+    rotate([0,0,-14])
     text_on_cylinder(t="Open EGGbox",r1=outerD/2,r2=outerD/2,h=1, font="Liberation Mono:style=Bold", direction="ttb", size=10);
 }    
